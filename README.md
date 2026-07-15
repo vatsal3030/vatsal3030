@@ -43,6 +43,7 @@ I ship production systems — not class projects. From video-streaming platforms
 <tr><td width="50%" valign="top">
 
 **What I care about**
+
 - Systems that survive real traffic, not just demos
 - Schema design before feature design
 - Caching and queues where they earn their complexity
@@ -53,13 +54,13 @@ I ship production systems — not class projects. From video-streaming platforms
 
 **Quick Facts**
 
-| | |
-|---|---|
-| 📍 Location | Ahmedabad, Gujarat, India |
-| 🎓 Education | B.Tech CSE — Nirma University |
+|                |                                                      |
+| -------------- | ---------------------------------------------------- |
+| 📍 Location    | Ahmedabad, Gujarat, India                            |
+| 🎓 Education   | B.Tech CSE — Nirma University                        |
 | 💼 Latest Role | Full Stack Developer Intern @ Chemicrown Trading Co. |
-| 🏆 Achievement | HackNUthon 6.0 Finalist |
-| 🗣️ Languages | English, Gujarati, Hindi |
+| 🏆 Achievement | HackNUthon 6.0 Finalist                              |
+| 🗣️ Languages   | English, Gujarati, Hindi                             |
 
 </td>
 </tr>
@@ -138,42 +139,59 @@ I ship production systems — not class projects. From video-streaming platforms
 
 ### 🎬 Vixora — AI-Powered Video Streaming & Analytics
 
-<img src="./assets/vixora-screenshot.png" width="100%" alt="Vixora — AI-powered video streaming platform screenshot" />
+<img src="./assets/vixora.png" width="100%" alt="Vixora — AI-powered video streaming platform screenshot" />
 
 An AI-powered video streaming & analytics platform built with React 19, Node.js, PostgreSQL, and Prisma. Features a custom HTML5 video player, asynchronous video processing queues using Redis and BullMQ, real-time push notifications via Socket.io and Cloudinary media storage. Integrates the Gemini AI API for automated video summaries and interactive transcripts, alongside a personalized feed recommendation engine and a rich user analytics dashboard using Recharts.
 
-| | |
-|---|---|
-| **Stack** | `React 19` `Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.io` `Cloudinary` `Docker` `Kubernetes` |
-| **Links** | [![Live](https://img.shields.io/badge/Live-app.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://app.vixora.co.in) |
+|           |                                                                                                                                                                      |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stack** | `React 19` `Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.io` `Cloudinary` `Docker` `Kubernetes`                                                 |
+| **Links** | [![Live](https://img.shields.io/badge/Live-app.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://app.vixora.co.in) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/vixora-frontend-2) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/vixora-backend) |
 
 </td></tr>
 <tr><td>
 
 ### 🧪 ChemiCrown CDMS — B2B Chemical Distribution ERP
 
-<img src="./assets/chemicrown-screenshot.png" width="100%" alt="ChemiCrown CDMS — B2B eCommerce and ERP platform screenshot" />
+<img src="./assets/chemicrown-cdms.png" width="100%" alt="ChemiCrown CDMS — B2B eCommerce and ERP platform screenshot" />
 
 A comprehensive B2B eCommerce and ERP platform designed for industrial chemical distribution. The system consolidates public product catalogs, client registrations, inventory safety compliance, sales order processing (integrating online and UPI checkouts), and an internal administration dashboard for managing employee attendance and monthly payroll. Built with React (Vite) and Tailwind CSS for a responsive, modern frontend, and Node.js (Express) with PostgreSQL (Supabase) via Prisma ORM for a secure backend.
 
-| | |
-|---|---|
-| **Stack** | `React (Vite)` `Tailwind CSS` `Node.js` `Express` `PostgreSQL (Supabase)` `Prisma` |
-| **Links** | [![Live](https://img.shields.io/badge/Live-chemi--crown--cdms-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://chemi-crown-cdms.vercel.app) [![GitHub](https://img.shields.io/badge/Source-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/ChemiCrown-cdms) |
+|           |                                                                                                                                                                                                                                                                                                                                                      |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stack** | `React (Vite)` `Tailwind CSS` `Node.js` `Express` `PostgreSQL (Supabase)` `Prisma`                                                                                                                                                                                                                                                                   |
+| **Links** | [![Live](https://img.shields.io/badge/Live-chemi--crown--cdms-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://chemicrown.site/) [![GitHub](https://img.shields.io/badge/Source-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/ChemiCrown-cdms) |
 
 </td></tr>
 <tr><td>
 
 ### 📅 Bookit — Service Booking Platform
 
-<img src="./assets/bookit-screenshot.png" width="100%" alt="Bookit — appointment booking platform screenshot" />
+<img src="./assets/bookit.png" width="100%" alt="Bookit — appointment booking platform screenshot" />
 
 An appointment booking platform for healthcare and personal services with role-based access for customers, service providers, and organizations. Integrated location-based search, scheduling, and payment workflows using Node.js, Express, PostgreSQL, and Prisma.
 
-| | |
-|---|---|
-| **Stack** | `Node.js` `Express` `PostgreSQL` `Prisma` |
-| **Links** | [![GitHub](https://img.shields.io/badge/Source-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030) |
+|           |                                                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stack** | `Node.js` `Express` `PostgreSQL` `Prisma`                                                                                                                     |
+| **Links** | [![Live](https://img.shields.io/badge/Live-bookit.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://bookit.vixora.co.in/) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Frontend) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Backend) |
+
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td>
+
+### 🤖 Elevara — AI Career Operating System
+
+<img src="./assets/elevara.png" width="100%" alt="Elevara — AI Career Operating System screenshot" />
+
+Developed Elevara, an AI Career OS for resume building, ATS scoring, and cover letter generation. Implemented async parsing queues via Redis/BullMQ, AI mock interviews and roadmaps using Gemini API, and a Chrome extension for real-time LinkedIn/Naukri job fit analysis. Built with Next.js, Express, and Prisma/Supabase; integrated Razorpay and Zustand. Improved resume tailoring efficiency.
+
+|           |                                                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stack** | `React.js` `Next.js` `Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Supabase` `Redis` `BullMQ` `Gemini AI API` `RESTful APIs` `Tailwind CSS` `Zod`         |
+| **Links** | [![Live](https://img.shields.io/badge/Live-career.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://career.vixora.co.in/) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_parser_frontend) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_Parser_backend) |
 
 </td></tr>
 </table>
@@ -181,9 +199,6 @@ An appointment booking platform for healthcare and personal services with role-b
 <details>
 <summary><b>🔭 More Projects</b></summary>
 <br/>
-
-**Elevara — AI Career Operating System** · An AI Career OS for resume building, ATS scoring, cover letter generation, AI mock interviews, and a Chrome extension for real-time LinkedIn/Naukri job fit analysis. Implemented async parsing queues via Redis/BullMQ; integrated Razorpay and Zustand.
-`Next.js` `Redis` `BullMQ` `Gemini AI API` `Prisma` `Supabase` — [![Live](https://img.shields.io/badge/Live-career.vixora.co.in-00d9ff?style=flat-square&labelColor=0a0f1a)](https://career.vixora.co.in)
 
 **Reve-soil-1.0 — HackNUthon 6.0 Finalist** · Built a soil analysis system to predict NPK, moisture & pH from spectrometer data. Designed end-to-end data preprocessing and feature engineering pipelines in Python; compared Random Forest, CatBoost, LightGBM, and TensorFlow models, achieving an R² of 0.89.
 `Python` `Pandas` `NumPy` `TensorFlow` `XGBoost` `LightGBM` — [![GitHub](https://img.shields.io/badge/Source-GitHub-00d9ff?style=flat-square&labelColor=0a0f1a)](https://github.com/vatsal3030/Reve-soil-1.0)
@@ -202,10 +217,10 @@ An appointment booking platform for healthcare and personal services with role-b
 <table width="100%">
 <tr><td width="50%" valign="top">
 
-| Platform | Rating | Profile |
-|---|---|---|
-| **Codeforces** | **1023** | [![CF](https://img.shields.io/badge/Profile-Codeforces-00d9ff?style=flat-square&labelColor=0a0f1a)](https://codeforces.com/profile/) |
-| **LeetCode** | **1624** | [![LC](https://img.shields.io/badge/Profile-LeetCode-00d9ff?style=flat-square&labelColor=0a0f1a)](https://leetcode.com/u/VATSAL_30) |
+| Platform       | Max Rating | Profile                                                                                                                              |
+| -------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Codeforces** | **1150**   | [![CF](https://img.shields.io/badge/Profile-Codeforces-00d9ff?style=flat-square&labelColor=0a0f1a)](https://codeforces.com/profile/) |
+| **LeetCode**   | **1694**   | [![LC](https://img.shields.io/badge/Profile-LeetCode-00d9ff?style=flat-square&labelColor=0a0f1a)](https://leetcode.com/u/VATSAL_30)  |
 
 DSA is a parallel track to product work — daily solving to keep fundamentals sharp for backend system design and interview readiness, not a one-time prep sprint.
 
@@ -224,12 +239,12 @@ DSA is a parallel track to product work — daily solving to keep fundamentals s
 
 ## 🎯 Current Focus
 
-| Area | Status |
-|---|---|
-| 🎓 Placement Preparation | `In Progress` |
-| 🏗️ Backend System Design | `In Progress` |
-| 🐳 Docker | `Applying in Production` |
-| ☸️ Kubernetes | `Learning` |
+| Area                     | Status                   |
+| ------------------------ | ------------------------ |
+| 🎓 Placement Preparation | `In Progress`            |
+| 🏗️ Backend System Design | `In Progress`            |
+| 🐳 Docker                | `Applying in Production` |
+| ☸️ Kubernetes            | `Learning`               |
 
 <br/>
 
@@ -257,11 +272,11 @@ Developed **ChemiCrown CDMS**, a comprehensive B2B eCommerce and ERP platform de
 
 ## 🏆 Hackathons & Achievements
 
-| Event | Role | Date |
-|---|---|---|
-| **HackNUthon 6.0** — Finalist | Developer · Soil Analysis System (R² = 0.89) | Mar 2025 |
-| **MINeD Hackathon** — Nirma University | Developer · AI-powered real-time image analysis web app | Feb 2025 |
-| **Build with India Hackathon** | Developer · Full-stack web app for digital challenges in India | Apr 2025 |
+| Event                                  | Role                                                           | Date     |
+| -------------------------------------- | -------------------------------------------------------------- | -------- |
+| **HackNUthon 6.0** — Finalist          | Developer · Soil Analysis System (R² = 0.89)                   | Mar 2025 |
+| **MINeD Hackathon** — Nirma University | Developer · AI-powered real-time image analysis web app        | Feb 2025 |
+| **Build with India Hackathon**         | Developer · Full-stack web app for digital challenges in India | Apr 2025 |
 
 <br/>
 
@@ -314,6 +329,6 @@ Developed **ChemiCrown CDMS**, a comprehensive B2B eCommerce and ERP platform de
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0a0f1a,100:001a2e&height=120&section=footer" width="100%" alt=""/>
 
-<sub>⭐ *"Build products, not just projects."* ⭐</sub>
+<sub>⭐ _"Build products, not just projects."_ ⭐</sub>
 
 </div>
