@@ -177,20 +177,17 @@ An appointment booking platform for healthcare and personal services with role-b
 | **Links** | [![Live](https://img.shields.io/badge/Live-bookit.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://bookit.vixora.co.in/) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Frontend) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Backend) |
 
 </td></tr>
-</table>
-
-<table width="100%">
 <tr><td>
 
 ### 🤖 Elevara — AI Career Operating System
 
 <img src="./assets/elevara.png" width="100%" alt="Elevara — AI Career Operating System screenshot" />
 
-Developed Elevara, an AI Career OS for resume building, ATS scoring, and cover letter generation. Implemented async parsing queues via Redis/BullMQ, AI mock interviews and roadmaps using Gemini API, and a Chrome extension for real-time LinkedIn/Naukri job fit analysis. Built with Next.js, Express, and Prisma/Supabase; integrated Razorpay and Zustand. Improved resume tailoring efficiency.
+Developed Elevara, an AI Career OS for resume building, ATS scoring, and cover letter generation. Implemented async parsing queues via Redis/BullMQ, AI mock interviews and roadmaps using Gemini API, and a Chrome extension for real-time LinkedIn/Naukri job fit analysis. Built with Next.js, Express, and Prisma/Supabase; integrated Razorpay and Zustand.
 
-|           |                                                                                                                                                               |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stack** | `React.js` `Next.js` `Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Supabase` `Redis` `BullMQ` `Gemini AI API` `RESTful APIs` `Tailwind CSS` `Zod`         |
+| | |
+|---|---|
+| **Stack** | `Next.js` `React.js` `Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Supabase` `Redis` `BullMQ` `Gemini AI API` `Tailwind CSS` `Zod` |
 | **Links** | [![Live](https://img.shields.io/badge/Live-career.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://career.vixora.co.in/) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_parser_frontend) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_Parser_backend) |
 
 </td></tr>
