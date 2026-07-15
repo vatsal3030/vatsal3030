@@ -1,0 +1,174 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#060d1a"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+
+    <!-- accent line shimmer -->
+    <linearGradient id="lineShimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0">
+        <animate attributeName="stop-color" values="#000000;#00d9ff;#000000" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00d9ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0">
+        <animate attributeName="stop-color" values="#000000;#00d9ff;#000000" dur="4s" repeatCount="indefinite" begin="2s"/>
+      </stop>
+    </linearGradient>
+
+    <!-- nebula glow -->
+    <radialGradient id="nebula" cx="50%" cy="48%" r="28%">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0.08">
+        <animate attributeName="stop-opacity" values="0.04;0.12;0.04" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%" stop-color="#00d9ff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#00d9ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- shooting star gradient -->
+    <linearGradient id="shootGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00d9ff" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- shooting star path -->
+    <path id="shootPath1" d="M -80,60 Q 400,100 1300,30" fill="none"/>
+    <path id="shootPath2" d="M -60,280 Q 500,200 1300,250" fill="none"/>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- nebula glow layer -->
+  <rect width="1200" height="320" fill="url(#nebula)"/>
+
+  <!-- ========== STARFIELD — 64 stars ========== -->
+  <g fill="#ffffff">
+    <!-- top-left cluster -->
+    <circle cx="18" cy="12" r="1.0"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="55" cy="38" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="42" cy="82" r="0.8"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="95" cy="22" r="1.2"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="60" r="0.9"><animate attributeName="opacity" values="1;0.1;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="78" cy="105" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="15" r="1.0"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="112" cy="130" r="0.7"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="4.3s" repeatCount="indefinite"/></circle>
+
+    <!-- top-center-left -->
+    <circle cx="210" cy="28" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="70" r="0.9"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="285" cy="18" r="1.1"><animate attributeName="opacity" values="0.1;0.95;0.1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="55" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="345" cy="95" r="0.8"><animate attributeName="opacity" values="1;0.15;1" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="110" r="1.0"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="30" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="195" cy="95" r="0.7"><animate attributeName="opacity" values="0.6;1;0.6" dur="4.1s" repeatCount="indefinite"/></circle>
+
+    <!-- top-center -->
+    <circle cx="430" cy="22" r="1.0"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="65" r="1.3"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="35" r="0.9"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="80" r="1.1"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="510" cy="105" r="0.7"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.5s" repeatCount="indefinite"/></circle>
+
+    <!-- top-center-right -->
+    <circle cx="650" cy="25" r="1.5"><animate attributeName="opacity" values="0.15;1;0.15" dur="4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="60" r="0.8"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="40" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="90" r="1.0"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="75" r="0.7"><animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/></circle>
+
+    <!-- top-right -->
+    <circle cx="830" cy="18" r="1.3"><animate attributeName="opacity" values="0.1;0.95;0.1" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="50" r="0.9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="30" r="1.1"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="70" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="42" r="0.8"><animate attributeName="opacity" values="1;0.1;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="25" r="1.4"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="65" r="1.0"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="35" r="1.6"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="85" r="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="95" r="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.3s" repeatCount="indefinite"/></circle>
+
+    <!-- bottom-left -->
+    <circle cx="30" cy="240" r="1.1"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="270" r="1.4"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="110" cy="250" r="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="290" r="1.0"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="50" cy="305" r="0.7"><animate attributeName="opacity" values="1;0.15;1" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="190" cy="265" r="1.3"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+
+    <!-- bottom-center-left -->
+    <circle cx="240" cy="255" r="0.9"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="280" r="1.2"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="350" cy="240" r="1.0"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="390" cy="300" r="0.7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="305" r="1.1"><animate attributeName="opacity" values="0.1;0.95;0.1" dur="3.1s" repeatCount="indefinite"/></circle>
+
+    <!-- bottom-center -->
+    <circle cx="450" cy="260" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="530" cy="285" r="0.8"><animate attributeName="opacity" values="1;0.1;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="250" r="1.5"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="295" r="0.9"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="305" r="1.0"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.5s" repeatCount="indefinite"/></circle>
+
+    <!-- bottom-center-right -->
+    <circle cx="710" cy="260" r="1.1"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="290" r="0.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="810" cy="250" r="1.4"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="280" r="0.9"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="3.3s" repeatCount="indefinite"/></circle>
+
+    <!-- bottom-right -->
+    <circle cx="910" cy="255" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="280" r="0.8"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="260" r="1.5"><animate attributeName="opacity" values="0.1;1;0.1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="290" r="1.0"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="250" r="0.7"><animate attributeName="opacity" values="1;0.2;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="275" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="300" r="0.9"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="305" r="1.1"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ========== SHOOTING STARS ========== -->
+  <!-- shooting star 1 — top arc -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0.9;0" dur="8s" repeatCount="indefinite" begin="1s"/>
+    <line x1="-60" y1="0" x2="0" y2="0" stroke="url(#shootGrad)" stroke-width="1.5" stroke-linecap="round">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="1s">
+        <mpath href="#shootPath1"/>
+      </animateMotion>
+    </line>
+  </g>
+
+  <!-- shooting star 2 — bottom arc, offset timing -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.7;0.7;0" dur="11s" repeatCount="indefinite" begin="5s"/>
+    <line x1="-40" y1="0" x2="0" y2="0" stroke="url(#shootGrad)" stroke-width="1.2" stroke-linecap="round">
+      <animateMotion dur="11s" repeatCount="indefinite" begin="5s">
+        <mpath href="#shootPath2"/>
+      </animateMotion>
+    </line>
+  </g>
+
+  <!-- ========== ACCENT LINE (shimmer) ========== -->
+  <rect x="0" y="205" width="1200" height="1.5" fill="url(#lineShimmer)" opacity="0.8"/>
+
+  <!-- ========== TEXT ========== -->
+  <text x="600" y="130" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="#ffffff" letter-spacing="6">
+    VATSAL VADGAMA
+  </text>
+
+  <text x="600" y="170" text-anchor="middle" font-family="'Courier New', 'Fira Code', monospace" font-size="17" fill="#00d9ff" letter-spacing="3">
+    BACKEND-FOCUSED FULL STACK DEVELOPER
+  </text>
+
+  <text x="600" y="235" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#5a6a80" letter-spacing="2.5">
+    NODE.JS · REACT · POSTGRESQL · REDIS · DOCKER · KUBERNETES
+  </text>
+
+  <!-- subtle bottom vignette -->
+  <rect x="0" y="280" width="1200" height="40" fill="url(#bg)" opacity="0.5"/>
+</svg>
