@@ -143,10 +143,12 @@ I ship production systems — not class projects. From video-streaming platforms
 
 An AI-powered video streaming & analytics platform built with React 19, Node.js, PostgreSQL, and Prisma. Features a custom HTML5 video player, asynchronous video processing queues using Redis and BullMQ, real-time push notifications via Socket.io and Cloudinary media storage. Integrates the Gemini AI API for automated video summaries and interactive transcripts, alongside a personalized feed recommendation engine and a rich user analytics dashboard using Recharts.
 
-|           |                                                                                                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stack** | `React 19` `Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.io` `Cloudinary` `Docker` `Kubernetes`                                                 |
-| **Links** | [![Live](https://img.shields.io/badge/Live-app.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://app.vixora.co.in) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/vixora-frontend-2) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/vixora-backend) |
+**Stack:** `React 19` `Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.io` `Cloudinary` `Docker` `Kubernetes`
+
+**Links:**
+[![Live](https://img.shields.io/badge/Live-app.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://app.vixora.co.in)
+[![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/vixora-frontend-2)
+[![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/vixora-backend)
 
 </td></tr>
 <tr><td>
@@ -155,12 +157,13 @@ An AI-powered video streaming & analytics platform built with React 19, Node.js,
 
 <img src="./assets/chemicrown-cdms.png" width="100%" alt="ChemiCrown CDMS — B2B eCommerce and ERP platform screenshot" />
 
-A comprehensive B2B eCommerce and ERP platform designed for industrial chemical distribution. The system consolidates public product catalogs, client registrations, inventory safety compliance, sales order processing (integrating online and UPI checkouts), and an internal administration dashboard for managing employee attendance and monthly payroll. Built with React (Vite) and Tailwind CSS for a responsive, modern frontend, and Node.js (Express) with PostgreSQL (Supabase) via Prisma ORM for a secure backend.
+A comprehensive B2B eCommerce and ERP platform designed for industrial chemical distribution. The system consolidates public product catalogs, client registrations, inventory safety compliance, sales order processing (integrating online and UPI checkouts), and an internal administration dashboard for managing employee attendance and monthly payroll.
 
-|           |                                                                                                                                                                                                                                                                                                                                                      |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stack** | `React (Vite)` `Tailwind CSS` `Node.js` `Express` `PostgreSQL (Supabase)` `Prisma`                                                                                                                                                                                                                                                                   |
-| **Links** | [![Live](https://img.shields.io/badge/Live-chemi--crown--cdms-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://chemicrown.site/) [![GitHub](https://img.shields.io/badge/Source-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/ChemiCrown-cdms) |
+**Stack:** `React (Vite)` `Tailwind CSS` `Node.js` `Express` `PostgreSQL (Supabase)` `Prisma`
+
+**Links:**
+[![Live](https://img.shields.io/badge/Live-chemicrown.site-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://chemicrown.site/)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/ChemiCrown-cdms)
 
 </td></tr>
 <tr><td>
@@ -169,12 +172,14 @@ A comprehensive B2B eCommerce and ERP platform designed for industrial chemical 
 
 <img src="./assets/bookit.png" width="100%" alt="Bookit — appointment booking platform screenshot" />
 
-An appointment booking platform for healthcare and personal services with role-based access for customers, service providers, and organizations. Integrated location-based search, scheduling, and payment workflows using Node.js, Express, PostgreSQL, and Prisma.
+An appointment booking platform for healthcare and personal services with role-based access for customers, service providers, and organizations. Integrated location-based search, scheduling, and payment workflows.
 
-|           |                                                                                                                                                               |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stack** | `Node.js` `Express` `PostgreSQL` `Prisma`                                                                                                                     |
-| **Links** | [![Live](https://img.shields.io/badge/Live-bookit.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://bookit.vixora.co.in/) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Frontend) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Backend) |
+**Stack:** `Node.js` `Express` `PostgreSQL` `Prisma`
+
+**Links:**
+[![Live](https://img.shields.io/badge/Live-bookit.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://bookit.vixora.co.in/)
+[![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Frontend)
+[![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Bookit-Backend)
 
 </td></tr>
 <tr><td>
@@ -183,12 +188,14 @@ An appointment booking platform for healthcare and personal services with role-b
 
 <img src="./assets/elevara.png" width="100%" alt="Elevara — AI Career Operating System screenshot" />
 
-Developed Elevara, an AI Career OS for resume building, ATS scoring, and cover letter generation. Implemented async parsing queues via Redis/BullMQ, AI mock interviews and roadmaps using Gemini API, and a Chrome extension for real-time LinkedIn/Naukri job fit analysis. Built with Next.js, Express, and Prisma/Supabase; integrated Razorpay and Zustand.
+Developed Elevara, an AI Career OS for resume building, ATS scoring, and cover letter generation. Implemented async parsing queues via Redis/BullMQ, AI mock interviews and roadmaps using Gemini API, and a Chrome extension for real-time LinkedIn/Naukri job fit analysis.
 
-| | |
-|---|---|
-| **Stack** | `Next.js` `React.js` `Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Supabase` `Redis` `BullMQ` `Gemini AI API` `Tailwind CSS` `Zod` |
-| **Links** | [![Live](https://img.shields.io/badge/Live-career.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://career.vixora.co.in/) [![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_parser_frontend) [![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_Parser_backend) |
+**Stack:** `Next.js` `React.js` `Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Supabase` `Redis` `BullMQ` `Gemini AI API` `Tailwind CSS` `Zod`
+
+**Links:**
+[![Live](https://img.shields.io/badge/Live-career.vixora.co.in-00d9ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a0f1a)](https://career.vixora.co.in/)
+[![Frontend](https://img.shields.io/badge/Frontend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_parser_frontend)
+[![Backend](https://img.shields.io/badge/Backend-GitHub-00d9ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0f1a)](https://github.com/vatsal3030/Resume_Parser_backend)
 
 </td></tr>
 </table>
